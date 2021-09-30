@@ -1,0 +1,23 @@
+
+###Get student
+GET http://localhost:9099/student
+
+###Create student 1
+POST http://localhost:9099/student
+Content-Type: application/json
+
+{
+  "id": 1,
+  "firstName": "Tahniat",
+  "lastName": "Ashraf"
+}
+
+###Create student 2
+POST http://localhost:9099/student
+Content-Type: application/json
+
+{
+  "id": 2,
+  "firstName": "Shorno",
+  "lastName": "Joarder"
+}
